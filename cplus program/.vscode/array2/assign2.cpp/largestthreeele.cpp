@@ -26,5 +26,5 @@ int main(){
     }
     cout<<max1<<" ";
     cout<<max2<<" ";
-    cout<<max3; 
+    cout<<max3;
 }
