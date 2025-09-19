@@ -1,0 +1,91 @@
+
+        /* h1 {
+            color: blue;
+            background-color: grey;
+        }
+
+        p {
+            color: red;
+            background-color: cornsilk;
+        }
+
+        Button {
+            color: Gold;
+            background-color: black;
+
+        } */
+
+        /* h2{
+         color: orange;
+        }
+
+        p {
+          color: white;
+          background-color: Blue;
+        }
+
+        button{
+         color: white;
+         background-color: black;
+        } */
+
+        /* h2{
+            text-align: center;
+            font-family: Script;
+        } */
+
+       /* h1{
+         font-family: League spartan;
+         color: #ffa511;
+         text-align: center;
+         font-size:55px;
+         font-weight:900;
+        letter-spacing:2px;
+        line-height:1.5;
+         text-decoration: teal double underline;
+         text-transform: uppercase;
+       } */
+        /* h3 {
+          background-color: green;
+        } */
+
+        /* h1{
+          color: pink;
+        }
+        #greet {
+          color: yellow;  
+        }
+
+        .myClass {
+          color: brown;
+        } */
+
+         div  {
+          height:300px;
+          width:250px;
+          background-color: pink;
+          /* border-width: 5px;
+          border-style: solid;
+          border-color: black; 
+        */
+        border: 5px solid black;
+        border-radius: 10px;
+        padding-top:20px;
+        /* border-left-color:blue;
+        border-left-style: dashed; */
+         }
+
+        /* h1 {
+          border-width: 2px;
+          border-style: dashed;
+          border-color: purple;
+          border: 2px dashed green;
+        } */
+
+        button{
+          border:2px solid black;
+          border-radius: 10px;
+          padding-left:25px;
+          padding-right:25px;
+          background-color: yellow;
+        }
