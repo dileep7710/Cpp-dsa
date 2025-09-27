@@ -22,8 +22,8 @@ void sort01m2(vector<int>&v){
      int j =n-1;
      while(i<j){
         if(v[i]==0) i++;
-        if(v[j]==1) j--;
-        if(v[i]==1 && v[j]==0)
+         if(v[j]==1) j--;
+        else if(v[i]==1 && v[j]==0){
         // int temp = v[i];
         // v[i] = v[j];
         // v[j] = temp;
@@ -31,6 +31,7 @@ void sort01m2(vector<int>&v){
         v[j]=1;
         i++;
         j--;
+        }
      }
 }
 int main(){
@@ -84,3 +85,6 @@ int main(){
 //      }
 //      cout<<endl; 
 // }
+
+
+ 
