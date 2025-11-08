@@ -4,27 +4,27 @@ int main(){
     int m;
     cout<<"Enter row of matrix : ";
     cin>>m;
+
     int n;
-    cout<<"Enter row of matrix : ";
+    cout<<"Enter col of matrix : ";
     cin>>n;
     int arr[m][n];
-    for(int i=0;i<m;i++){
+    for(int i=0; i<m;i++){
         for(int j=0;j<n;j++){
             cin>>arr[i][j];
         }
     }
-    cout<<endl;
-    // wave print
-    for(int i=0;i<m;i++){
-        if(i%2==0){
-            for(int j=0;j<n;j++){ // 0 2
+    // wave print 
+    for(int j=0;j<n;j++){
+        if(j%2==0){
+            for(int i=0;i<m;i++){
                 cout<<arr[i][j]<<" ";
             }
         }
-        else{ // i= 1 3 5  
-            for(int j=n-1; j>=0;j--){
+        else{
+            for(int i=m-1;i>=0;i--){
                 cout<<arr[i][j]<<" ";
             }
         }
-     }
+    }
 }
