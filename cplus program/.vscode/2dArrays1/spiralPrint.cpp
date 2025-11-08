@@ -46,6 +46,7 @@ int main(){
             count++;
 
         }
+        // anant 
         minc++;
 
     }
