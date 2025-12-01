@@ -2,11 +2,14 @@
 #include<string>
 using namespace std;
 int main(){
-    string str = "dileep";
-    cout<<str<<endl;
-   //kaam
+    int n;
+    cin>>n;
+    char str[n];
+    for(int i=0;i<n;i++){
+        cin>>str[n];
+    }
    for(int i=0;str[i]!='\0';i++){
     if(i%2==0) str[i] = 'a';
    }
-    cout<<str<<endl;
+   cout<<str<<endl;
 }
