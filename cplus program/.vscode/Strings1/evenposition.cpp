@@ -8,4 +8,7 @@ int main(){
         if(i%2==0) str[i] = 'a';
     }
     cout<<str;
-}
+
+ }
+
+
