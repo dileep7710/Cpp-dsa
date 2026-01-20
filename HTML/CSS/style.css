@@ -60,20 +60,20 @@
           color: brown;
         } */
 
-         div  {
+         /* div  {
           height:300px;
           width:250px;
-          background-color: pink;
+          background-color: pink; */
           /* border-width: 5px;
           border-style: solid;
           border-color: black; 
         */
-        border: 5px solid black;
+        /* border: 5px solid black;
         border-radius: 10px;
-        padding-top:20px;
+        padding-top:20px; */
         /* border-left-color:blue;
         border-left-style: dashed; */
-         }
+         /* } */
 
         /* h1 {
           border-width: 2px;
@@ -82,10 +82,34 @@
           border: 2px dashed green;
         } */
 
-        button{
+        /* button{
           border:2px solid black;
           border-radius: 10px;
           padding-left:25px;
           padding-right:25px;
           background-color: yellow;
+        } */
+        #outer{
+          height: 200px;
+          width:70px;
+          border: 2px solid black;
+        }
+        .inner {
+          height: 50px;
+          width: 50px;
+          border: 2px solid black;
+          margin: 10px;
+          border-radius: 50%;
+        }
+        
+        #red {
+          background-color: red;
+        }
+
+        #yellow {
+          background-color: yellow;
+        }
+
+        #green {
+          background-color: green;
         }
