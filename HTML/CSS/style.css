@@ -161,13 +161,21 @@
             width: 100px;
             background-color: cornflowerblue;
             font-size: 1em;
-          } */ */
+          } */ 
 
-          button {
+          /* button {
             font-size: 50px;
             border-radius: 15px;
             border: 5px solid green;
             padding-left: 1em;
             padding-right: 1em;
+
+          } */
+           section {
+            font-size:15px ;
+           }
+
+          div {
+            font-size: 2rem;
 
           }
