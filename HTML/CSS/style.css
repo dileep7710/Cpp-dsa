@@ -121,11 +121,29 @@
           display: block;
           background-color: yellow;
          } */
-          div{
+          /* div{
             height: 200px;
             width: 200px;
             background-color: greenyellow;
             border: 2px solid black;
             margin: 5px;
             display: inline-block;
+          } */
+
+          h1{
+            border: 2px solid black;
+            width: 33.3%;
+          }
+          #outer{
+            height: 400px;
+            width: 400px;
+            background-color: pink;
+            margin: 50px;
+          }
+
+          #inner{
+            height: 100px;
+            width: 100px;
+            background-color: cornflowerblue;
+            margin-left: 10%;
           }
