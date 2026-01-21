@@ -113,11 +113,19 @@
         #green {
           background-color: green;
         } */
-         h2 {
+         /* h2 {
           display:inline;
           background-color: pink;
          }
          span {
           display: block;
           background-color: yellow;
-         }
+         } */
+          div{
+            height: 200px;
+            width: 200px;
+            background-color: greenyellow;
+            border: 2px solid black;
+            margin: 5px;
+            display: inline-block;
+          }
