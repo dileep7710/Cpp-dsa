@@ -2,12 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} 
 
 /* #box{
     height: 200px;
     width: 200px;
-    background-color: crimson;
+    background-color: crimson;  
 }
 #inner{
     height:50%;
@@ -20,7 +20,7 @@
     background-color: crimson;
 } */
 
-#parent {
+/* #parent {
     height: 300px;
     width: 500px;
     background-color: rgb(12, 227, 216);
@@ -28,4 +28,72 @@
 }
 h1{
     font-size: 2em;
+} */
+ /* h1{
+    width: 20ch  ;
+ } */
+
+#parent{
+    height: 600px;
+    width: 800px;
+    background-color: pink;  
+    /* display: flex;  
+    align-items:flex-start;
+    justify-content:space-evenly;
+    flex-direction:row;
+    flex-wrap: wrap; */
+    display: grid;
+     grid-template-rows:  1fr 1fr 1fr 1fr; 
+     /* grid-template-columns: 1px 1px 2px   */
+ }
+#child1{
+    /* height: 300px;
+    width: 300px; */
+    background-color: crimson;
+    border: 2px solid olive
 }
+#child2{
+    /* height: 300px;
+    width: 300px; */
+    background-color: lightseagreen;
+    border: 2px solid olive
+}
+
+#child3{
+    /* height: 300px;
+    width: 300px; */
+    background-color: lightblue;
+    border: 2px solid olive
+}
+#child4{
+    /* height: 300px;
+    width: 300px; */
+    background-color: rgb(216, 152, 165);
+    border: 2px solid olive
+}
+/* #child5{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(61, 13, 97);
+    border: 2px solid olive
+}
+
+#child6{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(71, 5, 49);
+    border: 2px solid olive
+}
+#child7{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(20, 157, 50);
+    border: 2px solid olive
+}
+
+#child8{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(146, 15, 166);
+    border: 2px solid olive
+} */
