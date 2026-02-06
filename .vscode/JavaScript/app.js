@@ -23,11 +23,6 @@
 //     console.log("Good");
 // }
 // else
-//     console.log("no");
-let num = 12;
-if((num%3 === 0) && ((num+1 == 15) || (num-1 == 11))){
-    console.log("safe");
-}
-else{
-    console.log("unsafe");
-}
+//     console.
+let months = ["january","july","march","august"];
+months.splice(0,2,"july","June");
