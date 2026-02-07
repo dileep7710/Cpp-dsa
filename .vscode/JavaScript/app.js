@@ -29,7 +29,25 @@
 // for(let i=1; i<=5;i++){
 //     console.log(i);
 // }
-for(let i=1;i<=15;i+=2){
-        console.log(i);
+// for(let i=1;i<=15;i+=2){
+//         console.log(i);
         
+// }
+
+// let n = prompt("write your number");
+// n = parseInt(n);
+
+// for(let i=n;i<=n*10; i=i+n){
+//         console.log(i);
+// }
+
+const favMovie = "avatar";
+
+let guess =  prompt("guess my favorite movie");
+
+while((guess != favMovie) && (guess != "quite")){
+       guess = prompt("wrong guess. please try again");
+}
+if(guess==favMovie){
+        console.log("congrats!!");
 }
