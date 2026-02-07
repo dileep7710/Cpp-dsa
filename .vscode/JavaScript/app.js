@@ -24,5 +24,12 @@
 // }
 // else
 //     console.
-let months = ["january","july","march","august"];
-months.splice(0,2,"july","June");
+// let months = ["january","july","march","august"];
+// months.splice(0,2,"july","June");
+// for(let i=1; i<=5;i++){
+//     console.log(i);
+// }
+for(let i=1;i<=15;i+=2){
+        console.log(i);
+        
+}
