@@ -88,10 +88,26 @@
 //         marks:94.4
 // };
 
-const post = {
-        username: "@DileepYadav",
-        Content: "This is my #firstPost",
-        likes: 150,
-        reposts: 5,
-        tags: ["@apanacollege","@delta"] 
+// const post = {
+//         username: "@DileepYadav",
+//         Content: "This is my #firstPost",
+//         likes: 150,
+//         reposts: 5,
+//         tags: ["@apanacollege","@delta"] 
+// };
+
+const classInfo = {
+        aman : {
+                grade:"A+",
+                city:"Delhi"
+        },
+
+        Dileep : {
+                grade:"B",
+                city:"Kushinagar"
+        },
+        karan : {
+                grade:"o",
+                city:"Mumbai"
+        }
 };
