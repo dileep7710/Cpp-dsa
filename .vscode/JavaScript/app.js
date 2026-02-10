@@ -82,8 +82,16 @@
 //         }
 //         req = prompt("please enter your request");
 // }
-const student = {
-        name: "Dileep",
-        age: 23,
-        marks:94.4
+// const student = {
+//         name: "Dileep",
+//         age: 23,
+//         marks:94.4
+// };
+
+const post = {
+        username: "@DileepYadav",
+        Content: "This is my #firstPost",
+        likes: 150,
+        reposts: 5,
+        tags: ["@apanacollege","@delta"] 
 };
