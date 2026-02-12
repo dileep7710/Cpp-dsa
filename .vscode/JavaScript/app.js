@@ -178,14 +178,19 @@
 // }
 // printPoem();
 
-function rollDice() {
-        let rand = Math.floor(Math.random()*6) + 1;
-        console.log(rand);
-}
+// function rollDice() {
+//         let rand = Math.floor(Math.random()*6) + 1;
+//         console.log(rand);
+// }
 
-rollDice();
-rollDice();
-rollDice();
-rollDice();
-rollDice();
-rollDice();
+// rollDice();
+// rollDice();
+// rollDice();
+// rollDice();
+// rollDice();
+// rollDice();
+
+function printinfo(name,age){
+        console.log(`${name}'s age is ${age}.`);
+}
+printinfo("Dileep yadav" ,23);
