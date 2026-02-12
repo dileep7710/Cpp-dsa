@@ -190,7 +190,15 @@
 // rollDice();
 // rollDice();
 
-function printinfo(name,age){
-        console.log(`${name}'s age is ${age}.`);
+// function printinfo(name,age){
+//         console.log(`${name}'s age is ${age}.`);
+// }
+// printinfo("Dileep yadav" ,23);
+
+function sum(a,b) {
+        console.log(a+b);
 }
-printinfo("Dileep yadav" ,23);
+
+sum(1,2);
+sum(4,5);
+sum(7,8);
