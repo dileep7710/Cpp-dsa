@@ -171,9 +171,21 @@
 
 // isAdult();
 
-function printPoem(){
-        console.log("Twinkle Twinkle, little star");
-        console.log("how i wonder what you are");
+// function printPoem(){
+//         console.log("Twinkle Twinkle, little star");
+//         console.log("how i wonder what you are");
 
+// }
+// printPoem();
+
+function rollDice() {
+        let rand = Math.floor(Math.random()*6) + 1;
+        console.log(rand);
 }
-printPoem();
+
+rollDice();
+rollDice();
+rollDice();
+rollDice();
+rollDice();
+rollDice();
