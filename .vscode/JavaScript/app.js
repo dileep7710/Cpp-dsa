@@ -151,11 +151,22 @@
 // };
 // console.log(car.name);
 
-const Person = {
-        name: "Dileep Yadav",
-        age: 23,
-        city: "tamkuhiroad",
-};
-Person.city = "New York";
-Person.country = "United States";
-console.log(Person);
+// const Person = {
+//         name: "Dileep Yadav",
+//         age: 23,
+//         city: "tamkuhiroad",
+// };
+// Person.city = "New York";
+// Person.country = "United States";
+// console.log(Person);
+
+function isAdult(){
+        let age = 18;
+        if(age>=18){
+                console.log("adult");
+        }else {
+                console.log("not adult");
+        }
+}
+
+isAdult();
