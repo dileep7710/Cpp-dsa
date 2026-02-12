@@ -140,13 +140,22 @@
 //         // }
 // }
 
-let dice = Math.floor(Math.random() * 6) + 1;
-console.log(dice);
+// let dice = Math.floor(Math.random() * 6) + 1;
+// console.log(dice);
 
-const car = {
-        name: "maruti , suzuki",
-        model: "Maruti Suzuki Dzire",
-        color: "Red",
+// const car = {
+//         name: "maruti , suzuki",
+//         model: "Maruti Suzuki Dzire",
+//         color: "Red",
 
+// };
+// console.log(car.name);
+
+const Person = {
+        name: "Dileep Yadav",
+        age: 23,
+        city: "tamkuhiroad",
 };
-console.log(car.name);
+Person.city = "New York";
+Person.country = "United States";
+console.log(Person);
