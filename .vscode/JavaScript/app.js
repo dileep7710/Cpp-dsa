@@ -209,9 +209,20 @@
 // }
 // calcAvg(2, 4, 6); 
 
-function printTable(n){
-        for(let i=n;i<=n*10;i+=n){
-                console.log(i);
-        }
+// function printTable(n){
+//         for(let i=n;i<=n*10;i+=n){
+//                 console.log(i);
+//         }
+// }
+// printTable(2); 
+function isAdult(age){
+    if(age>=18){
+        return "adult";
+    }
+    else{
+        return "not adult";
+    }
 }
-printTable(2); 
+
+let s= isAdult(17);
+ console.log(s); 
