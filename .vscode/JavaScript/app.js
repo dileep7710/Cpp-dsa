@@ -215,14 +215,24 @@
 //         }
 // }
 // printTable(2); 
-function isAdult(age){
-    if(age>=18){
-        return "adult";
-    }
-    else{
-        return "not adult";
-    }
-}
+// function isAdult(age){
+//     if(age>=18){
+//         return "adult";
+//     }
+//     else{
+//         return "not adult";
+//     }
+// }
 
-let s= isAdult(17);
- console.log(s); 
+// let s= isAdult(17);
+//  console.log(s); 
+
+function getSum(n){
+    let sum = 0;
+    for(let i=1; i<=n;i++){
+        sum+=i;
+    }
+    return sum;
+}
+let s = getSum(10);
+console.log(s);
