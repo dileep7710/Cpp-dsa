@@ -237,13 +237,22 @@
 // let s = getSum(10);
 // console.log(s);
 
-let str = ["hi","hello","bye","!"];
+// let str = ["hi","hello","bye","!"];
 
-function concat(str) {
-    let result = " ";
+// function concat(str) {
+//     let result = " ";
 
-    for(let i=0;i<str.length;i++){
-        result += str[i];
-    }
-    return result;
-}
+//     for(let i=0;i<str.length;i++){
+//         result += str[i];
+//     }
+//     return result;
+// }
+
+let sum = 54; // Global Scope
+
+ function calSum(a, b){
+    let sum = a+b;  // Function Scope
+    console.log(sum);
+
+ }
+ calSum(1,2)
