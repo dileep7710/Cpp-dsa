@@ -266,17 +266,28 @@
 //     innerFunc(); 
 // }
 
-let greet = "hello"; // global scope
+// let greet = "hello"; // global scope
  
-function changeGreet() {
-    let greet = "namaste"; // function scope
-    console.log(greet);
+// function changeGreet() {
+//     let greet = "namaste"; // function scope
+//     console.log(greet);
 
-    function innerGreet(){
-        console.log(greet); // lexical scope
-    }
+//     function innerGreet(){
+//         console.log(greet); // lexical scope
+//     }
 
-    innerGreet();
+//     innerGreet();
+// }
+// console.log(greet);
+// changeGreet();
+
+let name = "Dileep";
+
+let sum = function(a,b){
+    return a+b;
 }
-console.log(greet);
-changeGreet();
+
+
+let hello = function() {
+    console.log(hello);
+}
