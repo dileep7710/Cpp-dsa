@@ -246,13 +246,22 @@
 //         result += str[i];
 //     }
 //     return result;
-// }
+// } 
 
-let sum = 54; // Global Scope
+// let sum = 54; // Global Scope
 
- function calSum(a, b){
-    let sum = a+b;  // Function Scope
-    console.log(sum);
+//  function calSum(a, b){
+//     let sum = a+b;  // Function Scope
+//     console.log(sum);
 
- }
- calSum(1,2)
+//  }
+//  calSum(1,2)
+function outerFunc(){
+    let x = 5;
+    let y = 6;
+    function innerFunc(){
+        console.log(x);
+        console.log(y);
+    }
+    innerFunc(); 
+}
