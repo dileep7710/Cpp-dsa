@@ -256,12 +256,27 @@
 
 //  }
 //  calSum(1,2)
-function outerFunc(){
-    let x = 5;
-    let y = 6;
-    function innerFunc(){
-        console.log(x);
-        console.log(y);
+// function outerFunc(){
+//     let x = 5;
+//     let y = 6;
+//     function innerFunc(){
+//         console.log(x);
+//         console.log(y);
+//     }
+//     innerFunc(); 
+// }
+
+let greet = "hello"; // global scope
+ 
+function changeGreet() {
+    let greet = "namaste"; // function scope
+    console.log(greet);
+
+    function innerGreet(){
+        console.log(greet); // lexical scope
     }
-    innerFunc(); 
+
+    innerGreet();
 }
+console.log(greet);
+changeGreet();
