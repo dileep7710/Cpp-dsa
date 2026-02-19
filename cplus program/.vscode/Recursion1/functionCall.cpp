@@ -38,16 +38,31 @@
 //     fun(n);
 // }
 
+// #include<iostream>
+// using namespace std;
+// void saca (int i,int n){
+//     if(i>n) return;
+//     cout<<i<<endl;
+//     saca(i+1,n);
+// }
+// int main(){
+//     int n;
+//     cin>>n;
+//     cout<<endl;
+//     saca(1,n);
+// }
+
 #include<iostream>
 using namespace std;
-void saca (int i,int n){
-    if(i>n) return;
-    cout<<i<<endl;
-    saca(i+1,n);
+int fact(int n){
+    // base case
+    if(n==1 || n==0) return 1;
+    // kaam and call
+    int ans = n*fact(n-1);
+    // return
+    return ans;
 }
 int main(){
-    int n;
-    cin>>n;
-    cout<<endl;
-    saca(1,n);
+    cout<<fact(5);
+
 }
