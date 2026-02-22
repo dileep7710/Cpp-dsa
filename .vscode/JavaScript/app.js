@@ -281,13 +281,25 @@
 // console.log(greet);
 // changeGreet();
 
-let name = "Dileep";
+// let name = "Dileep";
 
-let sum = function(a,b){
-    return a+b;
+// let sum = function(a,b){
+//     return a+b;
+// }
+
+
+// let hello = function() {
+//     console.log(hello);
+// }
+
+function multipleGreet(func, count){  // higher order function 
+    for(let i=1; i<=count;i++){
+        func();
+    }
+}
+let greet = function(){
+    console.log("hello");
 }
 
+multipleGreet(greet, 2);
 
-let hello = function() {
-    console.log(hello);
-}
