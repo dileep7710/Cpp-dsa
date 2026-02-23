@@ -324,16 +324,43 @@
 // let request = "odd";
 
 
-const calculator = {
-    num: 55,
-    add: function(a,b){
-        return a + b;
-    },
+// const calculator = {
+//     num: 55,
+//     add: function(a,b){
+//         return a + b;
+//     },
 
-    sub: function(a, b){
-        return a-b;
-    },  
-    mul: function(a,b){
-        return a*b;
+//     sub: function(a, b){
+//         return a-b;
+//     },  
+//     mul: function(a,b){
+//         return a*b;
+//     }
+// };
+
+let arr = [2,3,4,5,6,7,8];
+num = 5;
+// elements larger than a number num
+
+function getElements(arr, num){
+    for(let i = 0; i<arr.length; i++){
+        if(arr[i]>num){
+            console.log(arr[i]);
+        }
     }
-};
+}
+getElements(arr, num);
+
+const student = {
+    name: "Dileep",
+    age: 23,
+    eng: 95,
+    math: 93,
+    phy: 97,
+    getAvg() {
+        console.log(this);
+        let avg = (this.eng + this.math + this.phy) /3;
+        console.log(`${this.name} got avg marks = ${avg}`);
+    }
+}
+
