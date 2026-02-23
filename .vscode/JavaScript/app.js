@@ -415,16 +415,44 @@
 //  console.log("welcome to");
 
 
-console.log("Hi there!");
+// console.log("Hi there!");
 
- let id = setInterval( () =>{
-    console.log("Apna College");
-}, 2000);
+//  let id = setInterval( () =>{
+//     console.log("Apna College");
+// }, 2000);
 
-console.log(id);
+// console.log(id);
 
-let id2 = setInterval(() =>{
-    console.log("hello");
-}, 3000);
+// let id2 = setInterval(() =>{
+//     console.log("hello");
+// }, 3000);
 
-console.log(id2); 
+// console.log(id2); 
+
+const student = {
+    name: "aman",
+    marks: 95,
+    prop: this , // global scope
+    getName: function (){
+        console.log(this);
+        return this.name;
+    },
+
+    getMarks: () => {
+        console.log(this); // parent's scope
+        return this.marks;
+    },
+
+    getInfo1: function() {
+        setTimeout( ( ) => {
+            console.log("Apna college")
+        }, 2000);
+    },
+
+    getInfo2: function() {
+        setTimeout(function () {
+          console.log(this);
+        }, 2000);
+    },
+};
+
