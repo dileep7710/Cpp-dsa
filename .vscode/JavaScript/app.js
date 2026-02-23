@@ -338,29 +338,81 @@
 //     }
 // };
 
-let arr = [2,3,4,5,6,7,8];
-num = 5;
-// elements larger than a number num
+// let arr = [2,3,4,5,6,7,8];
+// num = 5;
+// // elements larger than a number num
 
-function getElements(arr, num){
-    for(let i = 0; i<arr.length; i++){
-        if(arr[i]>num){
-            console.log(arr[i]);
-        }
-    }
-}
-getElements(arr, num);
+// function getElements(arr, num){
+//     for(let i = 0; i<arr.length; i++){
+//         if(arr[i]>num){
+//             console.log(arr[i]);
+//         }
+//     }
+// }
+// getElements(arr, num);
 
-const student = {
-    name: "Dileep",
-    age: 23,
-    eng: 95,
-    math: 93,
-    phy: 97,
-    getAvg() {
-        console.log(this);
-        let avg = (this.eng + this.math + this.phy) /3;
-        console.log(`${this.name} got avg marks = ${avg}`);
-    }
+// const student = {
+//     name: "Dileep",
+//     age: 23,
+//     eng: 95,
+//     math: 93,
+//     phy: 97,
+//     getAvg() {
+//         console.log(this);
+//         let avg = (this.eng + this.math + this.phy) /3;
+//         console.log(`${this.name} got avg marks = ${avg}`);
+//     }
+// }
+
+
+function getAvg() {
+    console.log(this);
 }
+
+console.log("hello");
+console.log("hello");
+// let a = 5;
+try{
+    console.log(a);
+
+} catch(err) {
+    console.log("caught an error.. a is not defined");
+}
+
+console.log("hello2");
+console.log("hello2");
+console.log("hello");
+
+const sum = (a, b) => {
+    console.log(a + b);
+};
+
+const cube = (n) => {
+    return n * n * n;
+};
+
+const pow = (a, b) => {
+    return a ** b;
+};
+
+const mul = (a, b) => a*b;
+
+const cube = (n) => n*n*n;
+
+
+
+console.log("Hi there!");
+
+
+setTimeout( () => {
+    console.log("Apna college")
+ }, 4000);
+
+ console.log("welcome to");
+ console.log("welcome to");
+ console.log("welcome to");
+ console.log("welcome to");
+ console.log("welcome to");
+
+
 
