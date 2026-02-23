@@ -365,54 +365,66 @@
 // }
 
 
-function getAvg() {
-    console.log(this);
-}
+// function getAvg() {
+//     console.log(this);
+// }
 
-console.log("hello");
-console.log("hello");
-// let a = 5;
-try{
-    console.log(a);
+// console.log("hello");
+// console.log("hello");
+// // let a = 5;
+// try{
+//     console.log(a);
 
-} catch(err) {
-    console.log("caught an error.. a is not defined");
-}
+// } catch(err) {
+//     console.log("caught an error.. a is not defined");
+// }
 
-console.log("hello2");
-console.log("hello2");
-console.log("hello");
+// console.log("hello2");
+// console.log("hello2");
+// console.log("hello");
 
-const sum = (a, b) => {
-    console.log(a + b);
-};
+// const sum = (a, b) => {
+//     console.log(a + b);
+// };
 
-const cube = (n) => {
-    return n * n * n;
-};
+// const cube = (n) => {
+//     return n * n * n;
+// };
 
-const pow = (a, b) => {
-    return a ** b;
-};
+// const pow = (a, b) => {
+//     return a ** b;
+// };
 
-const mul = (a, b) => a*b;
+// const mul = (a, b) => a*b;
 
-const cube = (n) => n*n*n;
+// const cube = (n) => n*n*n;
 
+
+
+// console.log("Hi there!");
+
+
+// setTimeout( () => {
+//     console.log("Apna college")
+//  }, 4000);
+
+//  console.log("welcome to");
+//  console.log("welcome to");
+//  console.log("welcome to");
+//  console.log("welcome to");
+//  console.log("welcome to");
 
 
 console.log("Hi there!");
 
+ let id = setInterval( () =>{
+    console.log("Apna College");
+}, 2000);
 
-setTimeout( () => {
-    console.log("Apna college")
- }, 4000);
+console.log(id);
 
- console.log("welcome to");
- console.log("welcome to");
- console.log("welcome to");
- console.log("welcome to");
- console.log("welcome to");
+let id2 = setInterval(() =>{
+    console.log("hello");
+}, 3000);
 
-
-
+console.log(id2); 
