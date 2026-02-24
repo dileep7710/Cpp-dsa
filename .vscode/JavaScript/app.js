@@ -473,13 +473,27 @@
 //     console.log("clear interval ran");
 // }, 10000);
 
-const arrayAverage = (arr) => {
-    let total = 0;
-    for(let number of arr) {
-        total += number;
+// const arrayAverage = (arr) => {
+//     let total = 0;
+//     for(let number of arr) {
+//         total += number;
+//     }
+//     return total / arr.length;
+// };
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// console.log(arrayAverage(arr));
+
+let num = 4;
+const Even = (num) => num % 2 == 0;
+
+console.log("there!");
+const object = {
+    message: 'hello, world!',
+
+    logMessage() {
+        console.log(this.message);
     }
-    return total / arr.length;
 };
 
-let arr = [1, 2, 3, 4, 5, 6];
-console.log(arrayAverage(arr));
+setTimeout(object.logMessage,1000);
