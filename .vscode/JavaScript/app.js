@@ -483,17 +483,34 @@
 
 // let arr = [1, 2, 3, 4, 5, 6];
 // console.log(arrayAverage(arr));
+// let num = 4;
+// const Even = (num) => num % 2 == 0;
 
-let num = 4;
-const Even = (num) => num % 2 == 0;
 
-console.log("there!");
-const object = {
-    message: 'hello, world!',
+// console.log("there!");
+// const object = {
+//     message: 'hello, world!',
 
-    logMessage() {
-        console.log(this.message);
-    }
-};
+//     logMessage() {
+//         console.log(this.message);
+//     }
+// };
 
-setTimeout(object.logMessage,1000);
+// setTimeout(object.logMessage,1000);
+
+
+let length = 4;
+function callback() {
+    console.log(this.length);
+}
+
+    const object = {
+        length: 5,
+        method(callback) {
+            callback();
+        },
+    };
+
+    object.method(callback, 1, 2);
+
+
