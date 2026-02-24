@@ -458,7 +458,17 @@
 
 
 
-const square = n =>{
-    return n*n;
-}
-console.log(square(4));
+// const square = n =>{
+//     return n*n;
+// }
+// console.log(square(4));
+
+console.log("there!");
+let id = setInterval(() => {
+    console.log("Apna college");
+}, 2000);
+
+setTimeout(() => {
+    clearInterval(id);
+    console.log("clear interval ran");
+}, 10000);
