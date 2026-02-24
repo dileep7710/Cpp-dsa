@@ -429,30 +429,36 @@
 
 // console.log(id2); 
 
-const student = {
-    name: "aman",
-    marks: 95,
-    prop: this , // global scope
-    getName: function (){
-        console.log(this);
-        return this.name;
-    },
+// const student = {
+//     name: "aman",
+//     marks: 95,
+//     prop: this , // global scope
+//     getName: function (){
+//         console.log(this);
+//         return this.name;
+//     },
 
-    getMarks: () => {
-        console.log(this); // parent's scope
-        return this.marks;
-    },
+//     getMarks: () => {
+//         console.log(this); // parent's scope
+//         return this.marks;
+//     },
 
-    getInfo1: function() {
-        setTimeout( ( ) => {
-            console.log("Apna college")
-        }, 2000);
-    },
+//     getInfo1: function() {
+//         setTimeout( ( ) => {
+//             console.log("Apna college")
+//         }, 2000);
+//     },
 
-    getInfo2: function() {
-        setTimeout(function () {
-          console.log(this);
-        }, 2000);
-    },
-};
+//     getInfo2: function() {
+//         setTimeout(function () {
+//           console.log(this);
+//         }, 2000);
+//     },
+// };
 
+
+
+const square = n =>{
+    return n*n;
+}
+console.log(square(4));
