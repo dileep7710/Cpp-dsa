@@ -146,17 +146,27 @@
 
 // 
 
+// #include<iostream>
+// using namespace std;
+// int uptofact(int n){
+//     for(int j =1; j<=n; j++){
+//     int f = 1;
+//     for(int i = 2; i<=j; i++){
+//         f *=i;
+//     }
+//     cout<<f<<endl;
+//  }
+// }
+// int main(){
+//     uptofact(5);
+// }
+
 #include<iostream>
 using namespace std;
-int uptofact(int n){
-    for(int j =1; j<=n; j++){
-    int f = 1;
-    for(int i = 2; i<=j; i++){
-        f *=i;
-    }
-    cout<<f<<endl;
- }
+int fact(int n){
+    if(n==1 || n==0) return 1;
+    return n*fact(n-1);
 }
 int main(){
-    uptofact(5);
+    cout<<fact(1);
 }
