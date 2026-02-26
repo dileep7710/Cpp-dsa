@@ -124,11 +124,22 @@
 //     cout<<a<<" raised to the power "<<b<< " is "<<pow(a,b);
 // }
 
+// #include<iostream>
+// using namespace std;
+// int product(int x, int y){
+//     return x*y;
+// }
+// int main(){
+//     cout<<product(2,4);
+// }
+
 #include<iostream>
 using namespace std;
-int product(int x, int y){
-    return x*y;
+void fun(int x){
+    if(x==0) return;
+    cout<<"Mr. Aseshar Yadav"<<endl;
+    fun(x-1);
 }
 int main(){
-    cout<<product(2,4);
+    fun(4);
 }
