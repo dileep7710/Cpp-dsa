@@ -133,13 +133,30 @@
 //     cout<<product(2,4);
 // }
 
+// #include<iostream>
+// using namespace std;
+// void fun(int x){
+//     if(x==0) return;
+//     cout<<"Mr. Aseshar Yadav"<<endl;
+//     fun(x-1);
+// }
+// int main(){
+//     fun(4);
+// }
+
+// 
+
 #include<iostream>
 using namespace std;
-void fun(int x){
-    if(x==0) return;
-    cout<<"Mr. Aseshar Yadav"<<endl;
-    fun(x-1);
+int uptofact(int n){
+    for(int j =1; j<=n; j++){
+    int f = 1;
+    for(int i = 2; i<=j; i++){
+        f *=i;
+    }
+    cout<<f<<endl;
+ }
 }
 int main(){
-    fun(4);
+    uptofact(5);
 }
