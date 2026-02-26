@@ -91,8 +91,8 @@
 // }
 
 
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 // int power(int a , int b){
 //     if(a==0 && b==0){
 //         cout<<"0 raised to the power 0 is not defined";
@@ -107,19 +107,28 @@ using namespace std;
     
 // }
 
-int pow(int a, int b){
-    if(b==0) return 1;
-    return a*pow(a,b-1);
+// int pow(int a, int b){
+//     if(b==0) return 1;
+//     return a*pow(a,b-1);
+// }
+// int main(){
+//     int a;
+//     cout<<"enter base: ";
+//     cin>>a;
+
+//     int b;
+//     cout<<"enter exponent :";
+//     cin>>b;
+
+
+//     cout<<a<<" raised to the power "<<b<< " is "<<pow(a,b);
+// }
+
+#include<iostream>
+using namespace std;
+int product(int x, int y){
+    return x*y;
 }
 int main(){
-    int a;
-    cout<<"enter base: ";
-    cin>>a;
-
-    int b;
-    cout<<"enter exponent :";
-    cin>>b;
-
-
-    cout<<a<<" raised to the power "<<b<< " is "<<pow(a,b);
+    cout<<product(2,4);
 }
