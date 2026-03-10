@@ -161,12 +161,26 @@
 //     uptofact(5);
 // }
 
+// #include<iostream>
+// using namespace std;
+// int fact(int n){
+//     if(n==1 || n==0) return 1;
+//     return n*fact(n-1);
+// }
+// int main(){
+//     cout<<fact(1);
+// }
+
 #include<iostream>
 using namespace std;
-int fact(int n){
-    if(n==1 || n==0) return 1;
-    return n*fact(n-1);
+void print(int x){
+    if(x==0) return;
+    cout<<x<<endl;
+    print(x-1);
+
 }
 int main(){
-    cout<<fact(1);
+    int n;
+    cin>>n;
+    print(n);
 }
