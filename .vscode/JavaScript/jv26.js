@@ -102,6 +102,20 @@
 // let nums = [10, 20, 30, 40, 5];
 
 
-function sum(a , b = 2){
-    return a + b;
-}
+// function sum(a , b = 2){
+//     return a + b;
+// }
+
+// let arr = [1,2,3,4,5];
+// console.log(...arr); 
+
+let arr = [1,2,3,4,5];
+
+let NewArr = [...arr];
+
+let str = [..."hello"];
+
+let odd = [1,3,5,7,9];
+let even = [2,4,6,8,10];
+
+let nums = [...odd, ...even];
