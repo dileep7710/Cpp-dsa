@@ -56,7 +56,7 @@
 // });
 // console.log(finalValue);
 
-let arr = [1, 4, 2, 5, 6, 7, 2, 9, 2];
+// let arr = [1, 4, 2, 5, 6, 7, 2, 9, 2];
 
 // let max = -1;
 
@@ -68,12 +68,35 @@ let arr = [1, 4, 2, 5, 6, 7, 2, 9, 2];
 
 // console.log(max);
 
-let max = arr.reduce((max, el) =>{
-    if(max < el) {
-        return el;
-    } else {
-        return max;
+// let max = arr.reduce((max, el) =>{
+//     if(max < el) {
+//         return el;
+//     } else {
+//         return max;
+//     }
+// });
+
+// console.log(max);
+
+
+
+// let ans = nums.every((el) => el % 10 == 0);
+
+// console.log(ans); 
+
+function getMin(nums){
+    let min = nums.reduce((min, el) =>{
+        if(min < el){
+            return min;
+        }
+        else {
+            return el;
+
     }
 });
 
-console.log(max);
+ return min;
+
+}
+
+let nums = [10, 20, 30, 40, 5];
