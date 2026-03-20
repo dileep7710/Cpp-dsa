@@ -120,14 +120,24 @@
 
 // let nums = [...odd, ...even];
 
-const data = {
-    email: "ironman@gmail.com",
-    password: "abcd",
-};
+// const data = {
+//     email: "ironman@gmail.com",
+//     password: "abcd",
+// };
 
-const dataCopy = {...data, id: 123, country:"INDIA"};
+// const dataCopy = {...data, id: 123, country:"INDIA"};
 
-let arr = [1,2,3,4,5];
- let obj1 = {...arr}; 
+// let arr = [1,2,3,4,5];
+//  let obj1 = {...arr}; 
 
- let obj2 = {..."hello"};
+//  let obj2 = {..."hello"};
+
+let nums = [1,2,3,4,5];
+
+const square = nums.map((num) => num * num);
+console.log(square);
+
+let sum = square.reduce((acc, cur) => acc + cur, 0);
+
+let avg = sum / nums.length;
+console.log(avg);
