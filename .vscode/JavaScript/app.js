@@ -1,516 +1,268 @@
-// let a = 10;
-// let b = 5;
-// let output = "The total price is :" + ( pencilPrice + erasorPrice) + " Rupees.";
-// let output = `The total price is : ${pencilPrice} rupees.`;
-// console.log(output);
-// console.log(`Your pay ${a + b} rupees`);
+// let btn = document.querySelector("button");
+// btn.addEventListener("click", function (){
+//     let h3 = document.querySelector("h3");
+//     let randomColor = getRandomColor();
+//     h3.innerText = randomColor;
 
-// let size = 'M';
-// if(size==='XL'){
-//     console.log("price is Rs:-",250);
-// }
-// else if(size==='L'){
-//     console.log("price is:-",200);
-// }
-// else if(size=='M'){
-//     console.log("price is:-",100);
-// }
-// else{
-//     console.log("price is:-",50);
-// }
-// let str = "Abhishek";
-// if((str[0]=='A') && (str.length>3)){
-//     console.log("Good");
-// }
-// else
-//     console.
-// let months = ["january","july","march","august"];
-// months.splice(0,2,"july","June");
-// for(let i=1; i<=5;i++){
-//     console.log(i);
-// }
-// for(let i=1;i<=15;i+=2){
-//         console.log(i);
-        
+//     let div = document.querySelector("div");
+//     div.style.backgroundColor = randomColor;
+
+//     console.log("color updated");
+// });
+
+// function getRandomColor() {
+//     let red = Math.floor(Math.random() * 255);
+//     let green = Math.floor(Math.random() * 255);
+//     let blue = Math.floor(Math.random() * 255);
+
+//     let color = `rgb(${red}, ${green}, ${blue})`;
+//     return color;
 // }
 
-// let n = prompt("write your number");
-// n = parseInt(n);
+// let p = document.querySelector("p");
 
-// for(let i=n;i<=n*10; i=i+n){
-//         console.log(i);
-// }
+// p.addEventListener("click" , function () {
+//     console.log("parah was clicked");
+// });
 
-// const favMovie = "avatar";
+// let box = document.querySelector(".box");
+// box.addEventListener("mouseenter", function () {
+//     console.log("mouse inside div");
+// })
 
-// let guess =  prompt("guess my favorite movie");
+// let inp = document.querySelector("input");
 
-// while((guess != favMovie) && (guess != "quite")){
-//        guess = prompt("wrong guess. please try again");
-// }
-// if(guess==favMovie){
-//         console.log("congrats!!");
-// }
-// let todo = [];
-// let req = prompt("please enter your request");
+// btn.addEventListener("click", function(event) {
+//     console.log(event);
+//     console.log("button clicked"); 
+// });
 
-// while(true){
-//         if(req == "quit"){
-//                 console.log("quitting app");
-//                 break;
-//         }
+// btn.addEventListener("dblclick", function(event) {
+//     console.log(event);
+//     console.log("button clicked"); 
+// });
 
-//         if(req == "list"){
-//                 console.log("-------------");
-//                 for(let i=0; i<todo.length; i++){
-//                         console.logo(i,todo[i]);
-//                 }
-//                 for(task of todo){
-//                         console.log(task);
-//                 }
-//                 console.log("-----------");
-//         }
-//         else if(req == "add") {
-//                 let task = prompt("please enter the task you want to add");
-//                 todo.push(task);
-//                 console.log("task added");
-//         }
-//         else if(req == "delete"){
-//                 let idx = prompt("please enter the task index");
-//                 todo.splice(idx, 1);
-//                 console.log("task deleted");
-//         }
-//         req = prompt("please enter your request");
-// }
-// const student = {
-//         name: "Dileep",
-//         age: 23,
-//         marks:94.4
-// };
-
-// const post = {
-//         username: "@DileepYadav",
-//         Content: "This is my #firstPost",
-//         likes: 150,
-//         reposts: 5,
-//         tags: ["@apanacollege","@delta"] 
-// };
-
-// const classInfo = {
-//         aman : {
-//                 grade:"A+",
-//                 city:"Delhi"
-//         },
-
-//         Dileep : {
-//                 grade:"B",
-//                 city:"Kushinagar"
-//         },
-//         karan : {
-//                 grade:"o",
-//                 city:"Mumbai"
-//         }
-// };
-
-// const max = prompt("enter the max number");
-
-// const random = Math.floor(Math.random() * max) + 1;
-
-// let guess = prompt("guess the number");
-
-// while(true){
-//         if(guess == "quit"){
-//                 console.log("user quit");
-//                 break;
-//         }
-//         if(guess == random){
-//                 console.log("you are right! congrats!! random number was", random);
-//                 break;
-//         }
-//         else if(guess<random){
-//                 guess = prompt("hint : your guess was too small. please try again");
-//         }
-//         else {
-//                 guess = prompt("hint : your guess was too large. please try again");
-//         }
-
-
-//         // else {
-//         //         guess = prompt("your guess was wrong.please try again");
-//         // }
-// }
-
-// let dice = Math.floor(Math.random() * 6) + 1;
-// console.log(dice);
-
-// const car = {
-//         name: "maruti , suzuki",
-//         model: "Maruti Suzuki Dzire",
-//         color: "Red",
-
-// };
-// console.log(car.name);
-
-// const Person = {
-//         name: "Dileep Yadav",
-//         age: 23,
-//         city: "tamkuhiroad",
-// };
-// Person.city = "New York";
-// Person.country = "United States";
-// console.log(Person);
-
-// function isAdult(){
-//         let age = 18;
-//         if(age>=18){
-//                 console.log("adult");
-//         }else {
-//                 console.log("not adult");
-//         }
-// }
-
-// isAdult();
-
-// function printPoem(){
-//         console.log("Twinkle Twinkle, little star");
-//         console.log("how i wonder what you are");
-
-// }
-// printPoem();
-
-// function rollDice() {
-//         let rand = Math.floor(Math.random()*6) + 1;
-//         console.log(rand);
-// }
-
-// rollDice();
-// rollDice();
-// rollDice();
-// rollDice();
-// rollDice();
-// rollDice();
-
-// function printinfo(name,age){
-//         console.log(`${name}'s age is ${age}.`);
-// }
-// printinfo("Dileep yadav" ,23);
-
-// function sum(a,b) {
-//         console.log(a+b);
-// }
-
-// sum(1,2);
-// sum(4,5);
-// sum(7,8);
-
-// function calcAvg(a,b,c){
-//         let avg = (a+b+c)/3;
-//         console.log(avg);
-// }
-// calcAvg(2, 4, 6); 
-
-// function printTable(n){
-//         for(let i=n;i<=n*10;i+=n){
-//                 console.log(i);
-//         }
-// }
-// printTable(2); 
-// function isAdult(age){
-//     if(age>=18){
-//         return "adult";
+// inp.addEventListener("keydown", function(event) {
+//     console.log("code = ",event.code); // ArrowUp, ArrowDown, ArrowLeft, ArrowRight
+//     if (event.code == "ArrowUp"){
+//         console.log("character moves forward");
+//     } else if(event.code == "ArrowDown") {
+//         console.log("character moves backward");
+//     } else if(event.code == "Arrowleft"){
+//         console.log("character moves left");
+//     } else if(event.code == "Arrowright"){
+//         console.log("character moves right");
 //     }
-//     else{
-//         return "not adult";
+    
+// });
+
+
+
+// inp.addEventListener("keydown", function(event) {
+//     console.log("code = " , event.code); // ArrowUp(U), ArrowDown(D), ArrowLeft(l), ArrowRight(R).
+
+//     if (event.code == "KeyU"){
+//         console.log("Character moves up");
 //     }
+//      else if (event.code == "KeyD"){
+//         console.log("Character moves Down");
+
+//      } 
+
+//      else if (event.code == "KeyL"){
+//         console.log("character moves Left");
+//      }
+
+//      else if (event.code == "KeyR"){
+//         console.log("character moves Right");
+//      }
+
+
+// });
+
+// let form = document.querySelector("form");
+
+// form.addEventListener("submit", function (event) {
+//     event.preventDefault();
+//     console.dir(form);
+
+//     let user =  this.elements[0]; // form.elements[0]
+//     let pass = this.elements[1];
+   
+//     console.log(user.value);
+//     console.log(pass.value);
+
+//     alert(`Hi ${user.value}, your password is set to ${pass.value}`);
+//});
+
+// let user = document.querySelector('#user');
+
+// user.addEventListener("change", function() {
+//     console.log("input event");
+//     console.log("final value =", this.value);
+// } );
+
+// user.addEventListener("input", function() {
+//     console.log("input event");
+//     console.log("final value =", this.value);
+// } );
+
+
+// let inp = document.querySelector("#text");
+
+// let p = document.querySelector('p');
+
+// inp.addEventListener("input", function () {
+//     console.log(inp.value);
+//     p.innerText = inp.value;
+// });
+
+// let div = document.querySelector("div");
+// let ul = document.querySelector("ul");
+// let lis = document.querySelectorAll("li");
+
+// div.addEventListener("click", function() {
+//     console.log("div was clicked");
+// });
+
+// ul.addEventListener("click", function(event) {
+//     event.stopPropagation();
+//     console.log("ul was clicked");
+// });
+
+// for (li of lis ) {
+//     li.addEventListener("click", function (event) {
+//         event.stopPropagation();
+//         console.log("li was clicked");
+//     });
 // }
+// _______
 
-// let s= isAdult(17);
-//  console.log(s); 
+//  let btn = document.querySelector("button");
+//  let ul = document.querySelector("ul");
+//  let inp = document.querySelector("input");
 
-// function getSum(n){
-//     let sum = 0;
-//     for(let i=1; i<=n;i++){
-//         sum+=i;
-//     }
-//     return sum;
-// }
-// let s = getSum(10);
-// console.log(s);
+//  btn.addEventListener("click", function() {
+//     let item = document.createElement("li");
+//     item.innerText = inp.value;
 
-// let str = ["hi","hello","bye","!"];
+//     let delBtn = document.createElement("button");
+//     delBtn.innerText = "delete";
+//     delBtn.classList.add("delete");
 
-// function concat(str) {
-//     let result = " ";
+//     item.appendChild(delBtn);
+//     ul.appendChild(item);
+//     inp.value =  " ";
+//  });
 
-//     for(let i=0;i<str.length;i++){
-//         result += str[i];
-//     }
-//     return result;
-// } 
+//  ul.addEventListener("click", function (event) {
+//    if (event.target.nodeName == "BUTTON"){
+//       let listItem = event.target.parentElement;
+//       listItem.remove();
+//       console.log("delete");
+//    }
+  
+//  });
+ // _______
 
-// let sum = 54; // Global Scope
 
-//  function calSum(a, b){
-//     let sum = a+b;  // Function Scope
-//     console.log(sum);
-
+//  let delBtns = document.querySelectorAll(".delete");
+//  for (delBtn of delBtns) {
+//     delBtn.addEventListener("click", function () {
+//         let par = this.parentElement;
+//         console.log(par);
+//         par.remove();
+//     });
 //  }
-//  calSum(1,2)
-// function outerFunc(){
-//     let x = 5;
-//     let y = 6;
-//     function innerFunc(){
-//         console.log(x);
-//         console.log(y);
-//     }
-//     innerFunc(); 
-// }
 
-// let greet = "hello"; // global scope
+
+
+let gameSeq = [];
+let userSeq = [];
+
+let btns = ["yellow", "red", "purple", "green"];
+
+let started = false;
+let level = 0;
+
+let h2 = document.querySelector("h2");
+
+document.addEventListener("keypress", function () {
+   if (started == false) {
+      console.log("game is started");
+      started = true; 
+      levelUp();
+
+   }
+});
+
+function gameFlash(btn) {
+   btn.classList.add("flash");
+   setTimeout(function () {
+      btn.classList.remove("flash");
+   }, 500);
+
+}
+
+function userFlash(btn) {
+   btn.classList.add("userflash");
+   setTimeout(function () {
+      btn.classList.remove("userflash");
+   }, 500);
+
+}
+
+function levelUp() {
+   userSeq = [];
+   level++;
+   h2.innerText = `Level ${level}`;
+
+   let randIdx = Math.floor(Math.random() * btns.length);
+   let randColor = btns[randIdx];
+   let randbtn = document.querySelector(`.${randColor}`);
+   
+   gameSeq.push(randColor);
+   console.log(gameSeq);
+   gameFlash(randbtn);
+}
+
+function checkAns(idx) {
+   if (userSeq[idx] == gameSeq[idx]){
+      if (userSeq.length == gameSeq.length){
+         setTimeout(levelUp, 1000);
+      }
+   }
+   
+    else {
+      h2.innerHTML = `Game over!  Your score was <b>${level}</br> <br> Press any key to start.`;
+      document.querySelector("body").style.backgroundColor = "red";
+      setTimeout(function(){
+          document.querySelector("body").style.backgroundColor = "white";
+      },150);
+      reset();
+   }
+}
+
+function btnPress() { 
+   let btn = this;
+   userFlash(btn);
+
+   userColor = btn.getAttribute("id");
+   userSeq.push(userColor);
+
+   checkAns(userSeq.length-1);
+
+}
+
+let allBtns = document.querySelectorAll(".btn");
+for (btn of allBtns) {
+   btn.addEventListener("click", btnPress);
+}
+
+function reset() {
+   started = false;
+   gameSeq = [];
+   userSeq = [];
+   level = 0;
+}
  
-// function changeGreet() {
-//     let greet = "namaste"; // function scope
-//     console.log(greet);
-
-//     function innerGreet(){
-//         console.log(greet); // lexical scope
-//     }
-
-//     innerGreet();
-// }
-// console.log(greet);
-// changeGreet();
-
-// let name = "Dileep";
-
-// let sum = function(a,b){
-//     return a+b;
-// }
-
-
-// let hello = function() {
-//     console.log(hello);
-// }
-
-// function multipleGreet(func, count){  // higher order function 
-//     for(let i=1; i<=count;i++){
-//         func();
-//     }
-// }
-// let greet = function(){
-//     console.log("hello");
-// }
-
-// multipleGreet(greet, 2);
-
-
- 
-// function oddEvenTest(request){
-//     if(request == "odd") {
-//         return function(n) {
-//             console.log(!(n%2== 0));
-//         }
-//     }
-//      else if(request == "even") {
-//         return function(n) {
-//             console.log(n%2==0);
-//         } 
-//      }
-//      else {
-//         console.log("wrong request");
-//      }
-// }
-
-// let request = "odd";
-
-
-// const calculator = {
-//     num: 55,
-//     add: function(a,b){
-//         return a + b;
-//     },
-
-//     sub: function(a, b){
-//         return a-b;
-//     },  
-//     mul: function(a,b){
-//         return a*b;
-//     }
-// };
-
-// let arr = [2,3,4,5,6,7,8];
-// num = 5;
-// // elements larger than a number num
-
-// function getElements(arr, num){
-//     for(let i = 0; i<arr.length; i++){
-//         if(arr[i]>num){
-//             console.log(arr[i]);
-//         }
-//     }
-// }
-// getElements(arr, num);
-
-// const student = {
-//     name: "Dileep",
-//     age: 23,
-//     eng: 95,
-//     math: 93,
-//     phy: 97,
-//     getAvg() {
-//         console.log(this);
-//         let avg = (this.eng + this.math + this.phy) /3;
-//         console.log(`${this.name} got avg marks = ${avg}`);
-//     }
-// }
-
-
-// function getAvg() {
-//     console.log(this);
-// }
-
-// console.log("hello");
-// console.log("hello");
-// // let a = 5;
-// try{
-//     console.log(a);
-
-// } catch(err) {
-//     console.log("caught an error.. a is not defined");
-// }
-
-// console.log("hello2");
-// console.log("hello2");
-// console.log("hello");
-
-// const sum = (a, b) => {
-//     console.log(a + b);
-// };
-
-// const cube = (n) => {
-//     return n * n * n;
-// };
-
-// const pow = (a, b) => {
-//     return a ** b;
-// };
-
-// const mul = (a, b) => a*b;
-
-// const cube = (n) => n*n*n;
-
-
-
-// console.log("Hi there!");
-
-
-// setTimeout( () => {
-//     console.log("Apna college")
-//  }, 4000);
-
-//  console.log("welcome to");
-//  console.log("welcome to");
-//  console.log("welcome to");
-//  console.log("welcome to");
-//  console.log("welcome to");
-
-
-// console.log("Hi there!");
-
-//  let id = setInterval( () =>{
-//     console.log("Apna College");
-// }, 2000);
-
-// console.log(id);
-
-// let id2 = setInterval(() =>{
-//     console.log("hello");
-// }, 3000);
-
-// console.log(id2); 
-
-// const student = {
-//     name: "aman",
-//     marks: 95,
-//     prop: this , // global scope
-//     getName: function (){
-//         console.log(this);
-//         return this.name;
-//     },
-
-//     getMarks: () => {
-//         console.log(this); // parent's scope
-//         return this.marks;
-//     },
-
-//     getInfo1: function() {
-//         setTimeout( ( ) => {
-//             console.log("Apna college")
-//         }, 2000);
-//     },
-
-//     getInfo2: function() {
-//         setTimeout(function () {
-//           console.log(this);
-//         }, 2000);
-//     },
-// };
-
-
-
-// const square = n =>{
-//     return n*n;
-// }
-// console.log(square(4));
-
-// console.log("there!");
-// let id = setInterval(() => {
-//     console.log("Apna college");
-// }, 2000);
-
-// setTimeout(() => {
-//     clearInterval(id);
-//     console.log("clear interval ran");
-// }, 10000);
-
-// const arrayAverage = (arr) => {
-//     let total = 0;
-//     for(let number of arr) {
-//         total += number;
-//     }
-//     return total / arr.length;
-// };
-
-// let arr = [1, 2, 3, 4, 5, 6];
-// console.log(arrayAverage(arr));
-// let num = 4;
-// const Even = (num) => num % 2 == 0;
-
-
-// console.log("there!");
-// const object = {
-//     message: 'hello, world!',
-
-//     logMessage() {
-//         console.log(this.message);
-//     }
-// };
-
-// setTimeout(object.logMessage,1000);
-
-
-// let length = 4;
-// function callback() {
-//     console.log(this.length);
-// }
-
-//     const object = {
-//         length: 5,
-//         method(callback) {
-//             callback();
-//         },
-//     };
-
-//     object.method(callback, 1, 2);
-
-

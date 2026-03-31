@@ -132,12 +132,19 @@
 
 //  let obj2 = {..."hello"};
 
-let nums = [1,2,3,4,5];
+// let nums = [1,2,3,4,5];
 
-const square = nums.map((num) => num * num);
-console.log(square);
+// const square = nums.map((num) => num * num);
+// console.log(square);
 
-let sum = square.reduce((acc, cur) => acc + cur, 0);
+// let sum = square.reduce((acc, cur) => acc + cur, 0);
 
-let avg = sum / nums.length;
-console.log(avg);
+// let avg = sum / nums.length;
+// console.log(avg);
+
+// let arr = [1,2,3,-4,5];
+// console.log(arr.map((arr) => arr + 5));
+
+
+// let strings = ["adam", "bob", "catlyn", "donald","eve"];
+// console.log(strings.map((string)=> string.toUpperCase()));

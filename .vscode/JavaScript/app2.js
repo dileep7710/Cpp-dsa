@@ -1,0 +1,516 @@
+// let a = 10;
+// let b = 5;
+// let output = "The total price is :" + ( pencilPrice + erasorPrice) + " Rupees.";
+// let output = `The total price is : ${pencilPrice} rupees.`;
+// console.log(output);
+// console.log(`Your pay ${a + b} rupees`);
+
+// let size = 'M';
+// if(size==='XL'){
+//     console.log("price is Rs:-",250);
+// }
+// else if(size==='L'){
+//     console.log("price is:-",200);
+// }
+// else if(size=='M'){
+//     console.log("price is:-",100);
+// }
+// else{
+//     console.log("price is:-",50);
+// }
+// let str = "Abhishek";
+// if((str[0]=='A') && (str.length>3)){
+//     console.log("Good");
+// }
+// else
+//     console.
+// let months = ["january","july","march","august"];
+// months.splice(0,2,"july","June");
+// for(let i=1; i<=5;i++){
+//     console.log(i);
+// }
+// for(let i=1;i<=15;i+=2){
+//         console.log(i);
+        
+// }
+
+// let n = prompt("write your number");
+// n = parseInt(n);
+
+// for(let i=n;i<=n*10; i=i+n){
+//         console.log(i);
+// }
+
+// const favMovie = "avatar";
+
+// let guess =  prompt("guess my favorite movie");
+
+// while((guess != favMovie) && (guess != "quite")){
+//        guess = prompt("wrong guess. please try again");
+// }
+// if(guess==favMovie){
+//         console.log("congrats!!");
+// }
+// let todo = [];
+// let req = prompt("please enter your request");
+
+// while(true){
+//         if(req == "quit"){
+//                 console.log("quitting app");
+//                 break;
+//         }
+
+//         if(req == "list"){
+//                 console.log("-------------");
+//                 for(let i=0; i<todo.length; i++){
+//                         console.logo(i,todo[i]);
+//                 }
+//                 for(task of todo){
+//                         console.log(task);
+//                 }
+//                 console.log("-----------");
+//         }
+//         else if(req == "add") {
+//                 let task = prompt("please enter the task you want to add");
+//                 todo.push(task);
+//                 console.log("task added");
+//         }
+//         else if(req == "delete"){
+//                 let idx = prompt("please enter the task index");
+//                 todo.splice(idx, 1);
+//                 console.log("task deleted");
+//         }
+//         req = prompt("please enter your request");
+// }
+// const student = {
+//         name: "Dileep",
+//         age: 23,
+//         marks:94.4
+// };
+
+// const post = {
+//         username: "@DileepYadav",
+//         Content: "This is my #firstPost",
+//         likes: 150,
+//         reposts: 5,
+//         tags: ["@apanacollege","@delta"] 
+// };
+
+// const classInfo = {
+//         aman : {
+//                 grade:"A+",
+//                 city:"Delhi"
+//         },
+
+//         Dileep : {
+//                 grade:"B",
+//                 city:"Kushinagar"
+//         },
+//         karan : {
+//                 grade:"o",
+//                 city:"Mumbai"
+//         }
+// };
+
+// const max = prompt("enter the max number");
+
+// const random = Math.floor(Math.random() * max) + 1;
+
+// let guess = prompt("guess the number");
+
+// while(true){
+//         if(guess == "quit"){
+//                 console.log("user quit");
+//                 break;
+//         }
+//         if(guess == random){
+//                 console.log("you are right! congrats!! random number was", random);
+//                 break;
+//         }
+//         else if(guess<random){
+//                 guess = prompt("hint : your guess was too small. please try again");
+//         }
+//         else {
+//                 guess = prompt("hint : your guess was too large. please try again");
+//         }
+
+
+//         // else {
+//         //         guess = prompt("your guess was wrong.please try again");
+//         // }
+// }
+
+// let dice = Math.floor(Math.random() * 6) + 1;
+// console.log(dice);
+
+// const car = {
+//         name: "maruti , suzuki",
+//         model: "Maruti Suzuki Dzire",
+//         color: "Red",
+
+// };
+// console.log(car.name);
+
+// const Person = {
+//         name: "Dileep Yadav",
+//         age: 23,
+//         city: "tamkuhiroad",
+// };
+// Person.city = "New York";
+// Person.country = "United States";
+// console.log(Person);
+
+// function isAdult(){
+//         let age = 18;
+//         if(age>=18){
+//                 console.log("adult");
+//         }else {
+//                 console.log("not adult");
+//         }
+// }
+
+// isAdult();
+
+// function printPoem(){
+//         console.log("Twinkle Twinkle, little star");
+//         console.log("how i wonder what you are");
+
+// }
+// printPoem();
+
+// function rollDice() {
+//         let rand = Math.floor(Math.random()*6) + 1;
+//         console.log(rand);
+// }
+
+// rollDice();
+// rollDice();
+// rollDice();
+// rollDice();
+// rollDice();
+// rollDice();
+
+// function printinfo(name,age){
+//         console.log(`${name}'s age is ${age}.`);
+// }
+// printinfo("Dileep yadav" ,23);
+
+// function sum(a,b) {
+//         console.log(a+b);
+// }
+
+// sum(1,2);
+// sum(4,5);
+// sum(7,8);
+
+// function calcAvg(a,b,c){
+//         let avg = (a+b+c)/3;
+//         console.log(avg);
+// }
+// calcAvg(2, 4, 6); 
+
+// function printTable(n){
+//         for(let i=n;i<=n*10;i+=n){
+//                 console.log(i);
+//         }
+// }
+// printTable(2); 
+// function isAdult(age){
+//     if(age>=18){
+//         return "adult";
+//     }
+//     else{
+//         return "not adult";
+//     }
+// }
+
+// let s= isAdult(17);
+//  console.log(s); 
+
+// function getSum(n){
+//     let sum = 0;
+//     for(let i=1; i<=n;i++){
+//         sum+=i;
+//     }
+//     return sum;
+// }
+// let s = getSum(10);
+// console.log(s);
+
+// let str = ["hi","hello","bye","!"];
+
+// function concat(str) {
+//     let result = " ";
+
+//     for(let i=0;i<str.length;i++){
+//         result += str[i];
+//     }
+//     return result;
+// } 
+
+// let sum = 54; // Global Scope
+
+//  function calSum(a, b){
+//     let sum = a+b;  // Function Scope
+//     console.log(sum);
+
+//  }
+//  calSum(1,2)
+// function outerFunc(){
+//     let x = 5;
+//     let y = 6;
+//     function innerFunc(){
+//         console.log(x);
+//         console.log(y);
+//     }
+//     innerFunc(); 
+// }
+
+// let greet = "hello"; // global scope
+ 
+// function changeGreet() {
+//     let greet = "namaste"; // function scope
+//     console.log(greet);
+
+//     function innerGreet(){
+//         console.log(greet); // lexical scope
+//     }
+
+//     innerGreet();
+// }
+// console.log(greet);
+// changeGreet();
+
+// let name = "Dileep";
+
+// let sum = function(a,b){
+//     return a+b;
+// }
+
+
+// let hello = function() {
+//     console.log(hello);
+// }
+
+// function multipleGreet(func, count){  // higher order function 
+//     for(let i=1; i<=count;i++){
+//         func();
+//     }
+// }
+// let greet = function(){
+//     console.log("hello");
+// }
+
+// multipleGreet(greet, 2);
+
+
+ 
+// function oddEvenTest(request){
+//     if(request == "odd") {
+//         return function(n) {
+//             console.log(!(n%2== 0));
+//         }
+//     }
+//      else if(request == "even") {
+//         return function(n) {
+//             console.log(n%2==0);
+//         } 
+//      }
+//      else {
+//         console.log("wrong request");
+//      }
+// }
+
+// let request = "odd";
+
+
+// const calculator = {
+//     num: 55,
+//     add: function(a,b){
+//         return a + b;
+//     },
+
+//     sub: function(a, b){
+//         return a-b;
+//     },  
+//     mul: function(a,b){
+//         return a*b;
+//     }
+// };
+
+// let arr = [2,3,4,5,6,7,8];
+// num = 5;
+// // elements larger than a number num
+
+// function getElements(arr, num){
+//     for(let i = 0; i<arr.length; i++){
+//         if(arr[i]>num){
+//             console.log(arr[i]);
+//         }
+//     }
+// }
+// getElements(arr, num);
+
+// const student = {
+//     name: "Dileep",
+//     age: 23,
+//     eng: 95,
+//     math: 93,
+//     phy: 97,
+//     getAvg() {
+//         console.log(this);
+//         let avg = (this.eng + this.math + this.phy) /3;
+//         console.log(`${this.name} got avg marks = ${avg}`);
+//     }
+// }
+
+
+// function getAvg() {
+//     console.log(this);
+// }
+
+// console.log("hello");
+// console.log("hello");
+// // let a = 5;
+// try{
+//     console.log(a);
+
+// } catch(err) {
+//     console.log("caught an error.. a is not defined");
+// }
+
+// console.log("hello2");
+// console.log("hello2");
+// console.log("hello");
+
+// const sum = (a, b) => {
+//     console.log(a + b);
+// };
+
+// const cube = (n) => {
+//     return n * n * n;
+// };
+
+// const pow = (a, b) => {
+//     return a ** b;
+// };
+
+// const mul = (a, b) => a*b;
+
+// const cube = (n) => n*n*n;
+
+
+
+// console.log("Hi there!");
+
+
+// setTimeout( () => {
+//     console.log("Apna college")
+//  }, 4000);
+
+//  console.log("welcome to");
+//  console.log("welcome to");
+//  console.log("welcome to");
+//  console.log("welcome to");
+//  console.log("welcome to");
+
+
+// console.log("Hi there!");
+
+//  let id = setInterval( () =>{
+//     console.log("Apna College");
+// }, 2000);
+
+// console.log(id);
+
+// let id2 = setInterval(() =>{
+//     console.log("hello");
+// }, 3000);
+
+// console.log(id2); 
+
+// const student = {
+//     name: "aman",
+//     marks: 95,
+//     prop: this , // global scope
+//     getName: function (){
+//         console.log(this);
+//         return this.name;
+//     },
+
+//     getMarks: () => {
+//         console.log(this); // parent's scope
+//         return this.marks;
+//     },
+
+//     getInfo1: function() {
+//         setTimeout( ( ) => {
+//             console.log("Apna college")
+//         }, 2000);
+//     },
+
+//     getInfo2: function() {
+//         setTimeout(function () {
+//           console.log(this);
+//         }, 2000);
+//     },
+// };
+
+
+
+// const square = n =>{
+//     return n*n;
+// }
+// console.log(square(4));
+
+// console.log("there!");
+// let id = setInterval(() => {
+//     console.log("Apna college");
+// }, 2000);
+
+// setTimeout(() => {
+//     clearInterval(id);
+//     console.log("clear interval ran");
+// }, 10000);
+
+// const arrayAverage = (arr) => {
+//     let total = 0;
+//     for(let number of arr) {
+//         total += number;
+//     }
+//     return total / arr.length;
+// };
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// console.log(arrayAverage(arr));
+// let num = 4;
+// const Even = (num) => num % 2 == 0;
+
+
+// console.log("there!");
+// const object = {
+//     message: 'hello, world!',
+
+//     logMessage() {
+//         console.log(this.message);
+//     }
+// };
+
+// setTimeout(object.logMessage,1000);
+
+
+// let length = 4;
+// function callback() {
+//     console.log(this.length);
+// }
+
+//     const object = {
+//         length: 5,
+//         method(callback) {
+//             callback();
+//         },
+//     };
+
+//     object.method(callback, 1, 2);
+
+
