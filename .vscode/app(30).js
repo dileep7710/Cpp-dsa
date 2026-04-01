@@ -13,14 +13,14 @@
 
 // three();
 
-let a = 25;
-console.log(a);
-let b = 10;
-console.log(b);
-console.log(a+b);
+// let a = 25;
+// console.log(a);
+// let b = 10;
+// console.log(b);
+// console.log(a+b);
 
 
-// synchrous nature
+// // synchrous nature
 
 setTimeout(() => {
     console.log("apna college");
@@ -30,3 +30,33 @@ setTimeout(() => {
 }, 2000);
 
 console.log("hello....");
+
+h1 = document.querySelector("h1");
+
+
+function changeColor(color, delay, nextColorChange) {
+    setTimeout(() => {
+        h1.style.color = color;
+        if (nextColorChange) nextColorChange();
+    }, delay);
+}
+
+changeColor("red", 1000, () => {
+    changeColor("orange",1000, () => {
+        changeColor("green",1000, () => {
+            changeColor("yellow",1000);
+
+        });
+    });
+});
+
+// callbacks nesting -> callback hell
+
+
+
+
+  
+
+
+
+  
