@@ -195,16 +195,31 @@ async function demo() {
 // }
 
 
-let url ="https://catfact.ninja/fact";
+// let url ="https://catfact.ninja/fact";
 
-fetch(url)
- .then((res) => {
-    console.log(res);
-    return res.json();
- })
- .then((data) => {
-    console.log(data.fact);
- })
- .catch((err) => {
-    console.log("ERROR - ", err);
- });
+// fetch(url)
+//  .then((res) => {
+//     console.log(res);
+//     return res.json();
+//  })
+//  .then((data) => {
+//     console.log(data.fact);
+//  })
+//  .catch((err) => {
+//     console.log("ERROR - ", err);
+//  });
+
+
+
+ let url ="https://catfact.ninja/fact2";
+
+ async function getFacts() {
+    try {
+         let res = await fetch(url);
+         let data = await res.json();
+         console.log(res);
+    } catch (e) {
+        console.log("error - ", err);
+    }
+   
+ }
