@@ -225,32 +225,32 @@ async function demo() {
 //  }
 
 
-let btn = document.querySelector("button ");
-let url2 ="https://dog.ceo/api/breeds/image/random";
+// let btn = document.querySelector("button ");
+// let url2 ="https://dog.ceo/api/breeds/image/random";
 
 
-btn.addEventListener("click", async () => {
-   let link = await getImage();
-//    console.log(link);
-let img = document.querySelector("#result");
-img.setAttribute("src", link);
-console.log(link);
+// btn.addEventListener("click", async () => {
+//    let link = await getImage();
+// //    console.log(link);
+// let img = document.querySelector("#result");
+// img.setAttribute("src", link);
+// console.log(link);
    
-});
+// });
 
 
-//  let url ="https://catfact.ninja/fact";
+// //  let url ="https://catfact.ninja/fact";
  
- async function getImage() {
-    try {
-        let res = await axios.get(url2);
-        return  res.data.message;  
-    } 
-    catch (e) {
-        console.log("error - ", e);
-        return "/"; 
-    }
- }
+//  async function getImage() {
+//     try {
+//         let res = await axios.get(url2);
+//         return  res.data.message;  
+//     } 
+//     catch (e) {
+//         console.log("error - ", e);
+//         return "/"; 
+//     }
+//  }
 
 
 
@@ -275,3 +275,18 @@ console.log(link);
 //         return "No fact found"; 
 //     }
 //  }
+
+
+
+const url = "https://icanhazdadjoke.com/";
+
+async function getJokes() {
+    try {
+        const config = {headers: {Accept: "application/json"} };
+        let res = await axios.get(url, config);
+        console.log(res.data);
+    }
+    catch (err) {
+        console.log(err);
+    }
+}
