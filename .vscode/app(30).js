@@ -278,15 +278,51 @@ async function demo() {
 
 
 
-const url = "https://icanhazdadjoke.com/";
+// const url = "https://icanhazdadjoke.com/";
 
-async function getJokes() {
-    try {
-        const config = {headers: {Accept: "application/json"} };
-        let res = await axios.get(url, config);
-        console.log(res.data);
+// async function getJokes() {
+//     try {
+//         const config = {headers: {Accept: "application/json"} };
+//         let res = await axios.get(url, config);
+//         console.log(res.data);
+//     }
+//     catch (err) {
+//         console.log(err);
+//     }
+// } 
+
+
+let url = "http://universities.hipolabs.com/search?name= ";
+  let btn = document.querySelector("button");
+
+    btn.addEventListener("click", async () => {
+        let country = document.querySelector("input").value;
+        console.log(country);
+         
+       let colArr = await getColleges(country);
+       show(colArr);
+    });
+
+    function show(colArr) {
+        let list = document.querySelector("#list");
+        for(col of colArr) {
+            console.log(col.name);
+
+
+            let li = document.createElement("li");
+            li.innerText = col.name;
+            list.appendChild(li);
+        }
     }
-    catch (err) {
-        console.log(err);
+
+async function getColleges(country) {
+    try {
+        let res = await axios.get(url + country);
+        return res.data;
+        // console.log(res);
+    }
+    catch(e) {
+        console.log("error : ", e); 
+        return [];
     }
 }
