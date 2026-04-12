@@ -1,17 +1,20 @@
 import { useState } from "react";
 
-export default function Counter() {
-    const [count, setCount] = useState(0); // initialization
+function init() {
+    console.log("init was executed");
+    return Math.random();
+}
 
-    const incCount = () => {
+export default function Counter() {
+    const [count, setCount] = useState(init); // initialization
+    console.log("component was re-rendered");
+
+
+     const incCount = () => {
         setCount((currCount) => {
             return currCount + 1;
         });
-        setCount((currCount) => {
-            return currCount + 1;
-        });
-        
-    };
+     };
 
     return (
         <div>
