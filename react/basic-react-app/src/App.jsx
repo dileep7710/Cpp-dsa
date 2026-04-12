@@ -1,16 +1,15 @@
-import "./App.css";           // ✅ RIGHT
+import "./App.css";
+import Form from "./Form";
 
-import ProductTab from "./ProductTab.jsx";
 
-
-function App() {
+ function App() {
   return (
     <>
-    <h2>Blockbuster Deals | Shop Now</h2>
-     <ProductTab />
+  
+     <Form />
     </>
   
   );
-}
+ }
 
 export default App;

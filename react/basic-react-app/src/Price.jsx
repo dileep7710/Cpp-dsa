@@ -1,29 +1,29 @@
-export default function Price({oldPrice, newPrice}) {
-    let oldStyles = {
-        textDecorationLine: "Line-through",
-         paddingLeft:"20px",
+// export default function Price({oldPrice, newPrice}) {
+//     let oldStyles = {
+//         textDecorationLine: "Line-through",
+//          paddingLeft:"20px",
         
         
-    };
-    let newStyles = {
-        fontWeight: "bold",
-         paddingLeft:"5px",
-    };
-    let styles = {
-        backgroundColor: "#e0c367",
-        height: "30px",
-        width: "200px",
-        borderBottomLeftRadius: "14px",
-        borderBottomRightRadius: "14px",
+//     };
+//     let newStyles = {
+//         fontWeight: "bold",
+//          paddingLeft:"5px",
+//     };
+//     let styles = {
+//         backgroundColor: "#e0c367",
+//         height: "30px",
+//         width: "200px",
+//         borderBottomLeftRadius: "14px",
+//         borderBottomRightRadius: "14px",
        
-    }
+//     }
     
 
-    return (
-        <div style={styles}>
-            <span style={oldStyles}>{oldPrice}</span>
-            &nbsp; &nbsp; &nbsp;
-            <span style={newStyles}>{newPrice}</span>
-        </div>
-    )
-}
+//     return (
+//         <div style={styles}>
+//             <span style={oldStyles}>{oldPrice}</span>
+//             &nbsp; &nbsp; &nbsp;
+//             <span style={newStyles}>{newPrice}</span>
+//         </div>
+//     )
+// }
