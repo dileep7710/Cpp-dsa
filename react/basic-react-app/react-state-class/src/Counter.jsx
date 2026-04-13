@@ -6,7 +6,7 @@ function init() {
 }
 
 export default function Counter() {
-    const [count, setCount] = useState(init); // initialization
+    const [count, setCount] = useState(init  ); // initialization
     console.log("component was re-rendered");
 
 
