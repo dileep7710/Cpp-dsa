@@ -16,6 +16,22 @@
 // }
 
 
-const info = require("./Fruits");
+// const info = require("./Fruits");
 
-console.log(info[0]. name);
+// console.log(info[0]. name);
+
+// const figlet = require('figlet');
+
+// figlet('Hello Dileep!', (err, data) => {
+//   if (err) {
+//     console.log('Error:', err);
+//     return;
+//   }
+//   console.log(data);
+// });
+
+import { sum, PI} from "./math.js";
+import { generate } from "random-words";
+
+
+console.log(generate());
