@@ -10,15 +10,31 @@
 // console.log(age >= 18);  // false 
 
 
-console.log("before my if statement");
-let age = 14;
-if(age >= 18){
-    console.log("you can vote");
-    console.log("you can drive");
-    let a = 5;
-    console.log(5 * a);
+// console.log("before my if statement");
+// let age = 14;
+// if(age >= 18){
+//     console.log("you can vote");
+//     console.log("you can drive");
+//     let a = 5;
+//     console.log(5 * a);
+// }
+// if(age < 18)  {
+//     console.log("you cannot vote");
+// }
+// console.log("after my if statement");
+
+
+// Traffic Light System 
+let color = "yellow";
+
+if(color === "red"){
+    console.log("stop Light color is red");
 }
-if(age < 18)  {
-    console.log("you cannot vote");
+
+if(color === "green Light color is green"){
+    console.log("Go");
 }
-console.log("after my if statement");
+
+if(color === "yellow"){
+    console.log("slow Down light color is yellow  ");
+}
