@@ -66,16 +66,34 @@
 // }
 // else if("size === 'S', price is Rs.50");
 
-if(marks >= 33) {
-    console.log("Pass");
-    if(marks >= 80){
-        console.log("Grade : O");
-    }
-    else {
-        console.log("Grade : A");
-    }
+// if(marks >= 33) {
+//     console.log("Pass");
+//     if(marks >= 80){
+//         console.log("Grade : O");
+//     }
+//     else {
+//         console.log("Grade : A");
+//     }
     
+// }
+// else {
+//     console.log("Better luck next time!");
+// }
+
+// logical Operators  
+// let marks = 75;
+
+
+// if(marks >= 33 && marks >= 80) {
+//     console.log("Pass");
+//     console.log("A+");
+// }
+
+let age = 14;
+
+if( age >= 18){
+    console.log("you can vote");
 }
-else {
-    console.log("Better luck next time!");
+else if(age <18){
+    console.log("you cannot vote");
 }
