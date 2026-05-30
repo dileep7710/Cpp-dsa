@@ -28,13 +28,28 @@
 let color = "yellow";
 
 if(color === "red"){
-    console.log("stop Light color is red");
+    console.log("stop, Light color is red");
 }
 
-if(color === "green Light color is green"){
+ else if(color === "green, Light color is green"){
     console.log("Go");
 }
 
-if(color === "yellow"){
-    console.log("slow Down light color is yellow  ");
+else if(color === "yellow"){
+    console.log("slow Down, light color is yellow  ");
 }
+
+// let marks = 65;
+
+// if(marks >= 80){
+//     console.log("A+");
+// }
+// else if(marks >60){
+//     console.log("A");
+// }
+// else if(marks >= 33){
+//     console.log("B");
+// }
+// else if(marks <33){
+//     console.log("F");
+// }
