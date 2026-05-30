@@ -54,14 +54,28 @@
 //     console.log("F");
 // }
 
-let size = 'XL';
-if(size === 'XL'){
-    console.log("size is 'XL', price is Rs.250");
+// let size = 'XL';
+// if(size === 'XL'){
+//     console.log("size is 'XL', price is Rs.250");
+// }
+// else if(size =='L'){
+//     console.log("size is 'L',price is Rs.200");
+// }
+// else if(size === 'M'){
+//     console.log("size is 'M', price is Rs.100");
+// }
+// else if("size === 'S', price is Rs.50");
+
+if(marks >= 33) {
+    console.log("Pass");
+    if(marks >= 80){
+        console.log("Grade : O");
+    }
+    else {
+        console.log("Grade : A");
+    }
+    
 }
-else if(size =='L'){
-    console.log("size is 'L',price is Rs.200");
+else {
+    console.log("Better luck next time!");
 }
-else if(size === 'M'){
-    console.log("size is 'M', price is Rs.100");
-}
-else if("size === 'S', price is Rs.50");
