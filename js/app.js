@@ -89,11 +89,37 @@
 //     console.log("A+");
 // }
 
-let age = 14;
+// let age = 14;
 
-if( age >= 18){
-    console.log("you can vote");
+// if( age >= 18){
+//     console.log("you can vote");
+// }
+// else if(age <18){
+//     console.log("you cannot vote");
+// }
+
+// let marks = 50;
+
+// if(marks >=80 ){
+//     console.log("grade: A+");
+// }
+// else if(marks >= 60) {
+//     console.log("Grade : B+");
+// }
+// else if(marks >= 33 ){
+//     console.log("Grade : B");
+// }
+// else if(marks < 33){
+//     console.log("Fail");
+// }
+
+
+let str = "apple";
+if((str[0]=== 'a') && (str.length > 3)){
+    console.log("It is a good string");
+
 }
-else if(age <18){
-    console.log("you cannot vote");
+
+else {
+    console.log("It is not a good string");
 }
