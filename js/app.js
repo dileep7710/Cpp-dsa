@@ -152,40 +152,59 @@
 
 
 
-let day = 12;
+// let day = 12;
 
-switch(day){
-    case 1 :
-        console.log("Monday");
-        break;
+// switch(day){
+//     case 1 :
+//         console.log("Monday");
+//         break;
 
-    case 2 : 
-        console.log("Tuesday");
-        break;
+//     case 2 : 
+//         console.log("Tuesday");
+//         break;
 
-    case  3 : 
-        console.log("Wednesday");
-        break;
+//     case  3 : 
+//         console.log("Wednesday");
+//         break;
 
-    case 4 : 
-        console.log("Thusday");
-        break;
+//     case 4 : 
+//         console.log("Thusday");
+//         break;
 
-    case 5 : 
-        console.log("Friday");
-        break;
+//     case 5 : 
+//         console.log("Friday");
+//         break;
 
-    case  6 : 
-        console.log("Saturday");
-        break;
-    case 7 : 
-        console.log("Sunday,fun day");
-        break;
+//     case  6 : 
+//         console.log("Saturday");
+//         break;
+//     case 7 : 
+//         console.log("Sunday,fun day");
+//         break;
     
-    default : 
-        console.log("wrong day!");
+//     default : 
+//         console.log("wrong day!");
 
+// }
+
+// alert("something is wrong!");
+
+// let firstName = prompt("Enter first name");
+// let lastName = prompt("enter last name");
+// console.log("Welcome", firstName, " ", lastName, "!");
+
+
+let num = 50;
+
+if(num % 10 == 0){
+    console.log("Good");
 }
 
+else {
+    console.log("Bad");
+}
 
+let name = prompt("please  enter your name");
+let age = prompt("please enter you age");
 
+alert(`${name} is ${age} years old.`);
