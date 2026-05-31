@@ -114,12 +114,78 @@
 // }
 
 
-let str = "apple";
-if((str[0]=== 'a') && (str.length > 3)){
-    console.log("It is a good string");
+// let str = "apple";
+// if((str[0]=== 'a') && (str.length > 3)){
+//     console.log("It is a good string");
+
+// }
+
+// else {
+//     console.log("It is not a good string");
+// }
+
+
+// let num = 12;
+// if((num % 3 == 0) && (num+1 == 15) || (num-1 == 11)) {
+//     console.log("safe");
+// }
+
+// else{
+//     console.log("unsafe");
+// }
+
+// let color = "red";
+
+// switch(color) {
+//     case "red" :
+//         console.log("stop");
+//         break;
+//     case "yellow" :
+//         console.log("slow  down") ;
+//         break;
+//     case "green" :
+//         console.log("Go");
+//         break;
+//     default : 
+//     console.log("Broken Light");
+// }
+
+
+
+let day = 12;
+
+switch(day){
+    case 1 :
+        console.log("Monday");
+        break;
+
+    case 2 : 
+        console.log("Tuesday");
+        break;
+
+    case  3 : 
+        console.log("Wednesday");
+        break;
+
+    case 4 : 
+        console.log("Thusday");
+        break;
+
+    case 5 : 
+        console.log("Friday");
+        break;
+
+    case  6 : 
+        console.log("Saturday");
+        break;
+    case 7 : 
+        console.log("Sunday,fun day");
+        break;
+    
+    default : 
+        console.log("wrong day!");
 
 }
 
-else {
-    console.log("It is not a good string");
-}
+
+
