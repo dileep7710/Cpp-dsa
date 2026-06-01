@@ -241,27 +241,37 @@
 // }
 
 
-let a = 10;
-let b = 15;
-let c = 20;
+// let a = 10;
+// let b = 15;
+// let c = 20;
 
-if(a > b){
-    if(a > c){
-        console.log(a,"is largest");
-    }
+// if(a > b){
+//     if(a > c){
+//         console.log(a,"is largest");
+//     }
 
-    else {
-        console.log(c, "is largest");
-    }
-}
+//     else {
+//         console.log(c, "is largest");
+//     }
+// }
+
+// else {
+//     if(b > c){
+//         console.log(b, "is the largest");
+//     }
+
+//     else {
+//         console.log(c, " is the largest");
+//     }
+// }
+
+let nume1 = 32;
+let nume2 = 47852;
+
+if ((nume1 % 10) === (nume2 % 10)){
+    console.log("numbers have the same last digit", nume1%10);
+} 
 
 else {
-    if(b > c){
-        console.log(b, "is the largest");
-    }
-
-    else {
-        console.log(c, " is the largest");
-    }
+    console.log("numbers donn't have the same last digit ");
 }
-
