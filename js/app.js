@@ -194,17 +194,48 @@
 // console.log("Welcome", firstName, " ", lastName, "!");
 
 
-let num = 50;
+// let num = 50;
 
-if(num % 10 == 0){
-    console.log("Good");
+// if(num % 10 == 0){
+//     console.log("Good");
+// }
+
+// else {
+//     console.log("Bad");
+// }
+
+// let name = prompt("please  enter your name");
+// let age = prompt("please enter you age");
+
+// alert(`${name} is ${age} years old.`);
+
+// let Quarter = 3;
+// switch(Quarter) {
+//     case 1 :
+//         console.log("January, February, March");
+//         break;
+
+//     case 2 : 
+//         console.log("April, May, June");
+//          break;
+//     case 3 : 
+//         console.log("July, August, September");
+//          break;
+
+//     case 4 : 
+//         console.log("October, November, December");
+//          break;
+
+//     default : 
+//         console.log("Not exist");
+//     }
+
+let string = "oran";
+
+if((string[0] === 'A') || (string[0] === 'a') && (string >=5)){
+    console.log("A sting is a golden string");
 }
 
-else {
-    console.log("Bad");
+else { 
+    console.log("A string is  not golden string");
 }
-
-let name = prompt("please  enter your name");
-let age = prompt("please enter you age");
-
-alert(`${name} is ${age} years old.`);
