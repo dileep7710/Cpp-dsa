@@ -230,12 +230,38 @@
 //         console.log("Not exist");
 //     }
 
-let string = "oran";
+// let string = "oran";
 
-if((string[0] === 'A') || (string[0] === 'a') && (string >=5)){
-    console.log("A sting is a golden string");
+// if((string[0] === 'A') || (string[0] === 'a') && (string >=5)){
+//     console.log("A sting is a golden string");
+// }
+
+// else { 
+//     console.log("A string is  not golden string");
+// }
+
+
+let a = 10;
+let b = 15;
+let c = 20;
+
+if(a > b){
+    if(a > c){
+        console.log(a,"is largest");
+    }
+
+    else {
+        console.log(c, "is largest");
+    }
 }
 
-else { 
-    console.log("A string is  not golden string");
+else {
+    if(b > c){
+        console.log(b, "is the largest");
+    }
+
+    else {
+        console.log(c, " is the largest");
+    }
 }
+
