@@ -46,8 +46,22 @@
 // }
 
 
-for(let i=1; i<=10; i++){
-    if(i%2==0){
-        console.log("It is even number", i); 
+// for(let i=1; i<=10; i++){
+//     if(i%2==0){
+//         console.log("It is even number", i); 
+//     }
+// }
+
+
+// for(let i=1; ; i++){
+//     console.log(i);
+// }
+
+let n = prompt("write your number");
+n = parseInt(n);
+
+for(let i=1; i<=n*10; i++){
+    if(i%5==0){
+        console.log("The table is  ", i);
     }
 }
