@@ -265,13 +265,15 @@
 //     }
 // }
 
-let nume1 = 32;
-let nume2 = 47852;
+// let nume1 = 32;
+// let nume2 = 47852;
 
-if ((nume1 % 10) === (nume2 % 10)){
-    console.log("numbers have the same last digit", nume1%10);
-} 
+// if ((nume1 % 10) === (nume2 % 10)){
+//     console.log("numbers have the same last digit", nume1%10);
+// } 
 
-else {
-    console.log("numbers donn't have the same last digit ");
-}
+// else {
+//     console.log("numbers donn't have the same last digit ");
+// }
+
+

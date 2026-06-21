@@ -8,11 +8,40 @@
 
 // let msg = "ILoveCoding";
 
-let msg = "  hello ";
-let newMsg = msg.trim();
-console.log(newMsg);
-newMsg = newMsg.toUpperCase();
-console.log(newMsg);
+// let msg = "  hello ";
+// // let newMsg = msg.trim();
+// // console.log(newMsg);
+// // newMsg = newMsg.toUpperCase();
+// // console.log(newMsg);
 
-let newMsg = msg.trim().toUpperCase();
-console.log(newMsg);
+// let newMsg = msg.trim().toUpperCase();
+// console.log(newMsg);
+
+
+// let msg = "   hello";
+
+// let password = prompt("Enter you password");
+// let currentPass = (password);
+// 
+// let msg = "   dileep";
+// let newMsg = msg.trim().toUpperCase();
+// console.log(newMsg);
+
+// let str = "loveCoding";
+// let newstr = str.replace("love", "do");
+// console.log(newstr);
+// console.log(str);
+
+// let msg = "  help!";
+// newMsg = msg.trim().toUpperCase();
+// console.log(newMsg);
+
+
+
+
+for(let i = 1; i<=15; i++){
+    if(i%2!=0){
+        console.log("It is odd numbers", i);
+    }
+}
+
