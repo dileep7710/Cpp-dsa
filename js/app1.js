@@ -57,11 +57,33 @@
 //     console.log(i);
 // }
 
-let n = prompt("write your number");
-n = parseInt(n);
+// let n = prompt("write your number");
+// n = parseInt(n);
 
-for(let i=1; i<=n*10; i++){
-    if(i%5==0){
-        console.log("The table is  ", i);
-    }
+// for(let i=1; i<=n*10; i++){
+//     if(i%5==0){
+//         console.log("The table is  ", i);
+//     }
+// }
+
+
+// for(let i=1; i<=3; i++){
+//     console.log(`outer loop ${i}`);
+//     for(let j=1; j<=i ; j++){
+//         console.log(j);
+//     }
+// }
+
+const favMovie = "avatar";
+
+let guess = prompt("guess my favorite movie");
+
+while((guess != favMovie) && (guess !="quit")){
+
+     guess = prompt(" wrong guess. Please try again");
+
+}
+
+if(guess == favMovie){
+    console.log("congrats!!"); 
 }
