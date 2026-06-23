@@ -121,11 +121,21 @@
 // }
 
 
-let student = [["aman", 95], ["shradha", 94.4], ["karan", 100]];
+// let student = [["aman", 95], ["shradha", 94.4], ["karan", 100]];
 
-for(let i=0; i<student.length; i++){
-    console.log(`info of # ${i+1}`);
-    for(let j=0; j<student[i].length; j++){
-        console.log(student[i][j]);
-    }
+// for(let i=0; i<student.length; i++){
+//     console.log(`info of # ${i+1}`);
+//     for(let j=0; j<student[i].length; j++){
+//         console.log(student[i][j]);
+//     }
+// }
+
+let fruits = ["mango", "apple", "banana", "litchi", "orange"];
+
+for(fruit of fruits) {
+    console.log(fruit);
+}
+
+for(char of "apnacollege"){
+    console.log(char);
 }
