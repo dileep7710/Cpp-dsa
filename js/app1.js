@@ -74,16 +74,58 @@
 //     }
 // }
 
-const favMovie = "avatar";
+// const favMovie = "avatar";
 
-let guess = prompt("guess my favorite movie");
+// let guess = prompt("guess my favorite movie");
 
-while((guess != favMovie) && (guess !="quit")){
+// while((guess != favMovie) && (guess !="quit")){
 
-     guess = prompt(" wrong guess. Please try again");
+//      guess = prompt(" wrong guess. Please try again");
 
-}
+// }
 
-if(guess == favMovie){
-    console.log("congrats!!"); 
+// if(guess == favMovie){
+//     console.log("congrats!!"); 
+// }
+
+// let i=1;
+// while(i<=5){
+//     if(i==3){
+//         break;
+//     }
+//     console.log(i);
+//     i++;
+// }
+
+// let fruits = ["mango", "apple", "banana", "litchi", "orange"];
+
+// for(let i=0; i<=fruits.length; i++){
+//     if(i%2!=0){
+//         console.log(i, fruits[i]); 
+//     }
+    
+// }
+
+
+
+// let heroes = [
+//     ["ironman", "spiderman", "thor"],
+//     ["superman", "wonder woman", "flash"]
+// ]
+
+// for(let i=0; i<heroes.length; i++){
+//     console.log(i, heroes[i], heroes[i].length);
+//     for(let j=0; j<heroes[i].length; j++){
+//         console.log(`j=${j},${heroes[i][j]}`);
+//     }
+// }
+
+
+let student = [["aman", 95], ["shradha", 94.4], ["karan", 100]];
+
+for(let i=0; i<student.length; i++){
+    console.log(`info of # ${i+1}`);
+    for(let j=0; j<student[i].length; j++){
+        console.log(student[i][j]);
+    }
 }
