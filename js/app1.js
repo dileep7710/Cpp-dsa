@@ -231,10 +231,32 @@
 //     color = ["red", "pink"]
 // };
 
-const post = {
-    username: "@Dileepyadav",
-    content: "This is my  #firstPost",
-    likes: 150,
-    reposts: 5,
-    tags: ["@apnacollege", "@delta"]
-};
+// const post = {
+//     username: "@Dileepyadav",
+//     content: "This is my  #firstPost",
+//     likes: 150,
+//     reposts: 5,
+//     tags: ["@apnacollege", "@delta"]
+// };
+
+// const student = {
+//     name: "Dileep",
+//     age: 23,
+//     marks: 94.4,
+//     city: "Delhi"
+// };
+
+const classInfo = {
+    aman:{
+        grade: "A+",
+        city: "Delhi"
+    },
+    shradha:{
+        grade: "A",
+        city: "Mumbai"
+    },
+    karan:{
+        grade: "O",
+        city: "Kolkatta"
+    },
+}; 
