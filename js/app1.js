@@ -218,15 +218,23 @@
 //     console.log(largest);
 //
 
-let student = {
-    name: "shradha",
-    age: 23,
-    marks: 94.4,
-};
+// let student = {
+//     name: "shradha",
+//     age: 23,
+//     marks: 94.4,
+// };
 
 
-const item = {
-    price : 100.99,
-    discount: 50,
-    color = ["red", "pink"]
+// const item = {
+//     price : 100.99,
+//     discount: 50,
+//     color = ["red", "pink"]
+// };
+
+const post = {
+    username: "@Dileepyadav",
+    content: "This is my  #firstPost",
+    likes: 150,
+    reposts: 5,
+    tags: ["@apnacollege", "@delta"]
 };
