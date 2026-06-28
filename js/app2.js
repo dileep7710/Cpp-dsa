@@ -35,9 +35,39 @@
 
 // printPoem();
 
-function rolldice(){
-    let random = Math.floor(Math.random()*6)+1;
-    console.log(random);
+// function rolldice(){
+//     let random = Math.floor(Math.random()*6)+1;
+//     console.log(random);
+// }
+
+// rolldice();
+
+// function printinfo(name, age){
+//     console.log(`${name}'s age is ${age}.`);
+// }
+
+// printinfo("Dileep",18);
+// printinfo("dileep");
+
+// function sum(a,b){
+//     console.log(a+b);
+// }
+
+// sum(2,4);
+// sum(4,5);
+
+
+// function calcAvg(a,b,c){
+//     avg = (a+b+c)/2;
+//     console.log(avg);
+// }
+
+// calcAvg(2,3,4);
+
+function printTable(a){
+    for(let i=a; i<=a*10; i=i+a){
+        console.log(i);
+    }
 }
 
-rolldice();
+printTable(2);
