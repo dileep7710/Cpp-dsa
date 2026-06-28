@@ -64,10 +64,31 @@
 
 // calcAvg(2,3,4);
 
-function printTable(a){
-    for(let i=a; i<=a*10; i=i+a){
-        console.log(i);
+// function printTable(a){
+//     for(let i=a; i<=a*10; i=i+a){
+//         console.log(i);
+//     }
+// }
+
+// printTable(2);
+
+// function isAdult(age){
+//     if(age >= 18){
+//         return "adult";
+//     }
+//     else {
+//         return "not adult";
+//     }
+// }
+
+// console.log(isAdult(13));
+
+function sumNum(n){
+    let sum = 0;
+    for(let i=1; i<=n; i++){
+        sum = sum + i;
     }
+    return sum; 
 }
 
-printTable(2);
+console.log(sumNum(100));
